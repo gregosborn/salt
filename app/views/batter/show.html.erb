@@ -1,0 +1,32 @@
+<h1>Batter</h1>
+ 
+<table>
+  <tr>
+    <th>Points</th>	
+    <th>AB</th>	
+    <th>1b</th>
+    <th>2b</th>
+    <th>3b</th>
+    <th>HR</th>
+	<th>BB</th>
+	<th>R</th>
+	<th>RBI</th>
+	<th>SB</th>
+	<th>CS</th>
+  </tr>
+ 
+  <tr>
+	<td><%= @batter.points %></td>
+	<td><%= @batter.ab %></td>
+	<td><%= @batter.single %></td>
+	<td><%= @batter.double %></td>
+	<td><%= @batter.triple %></td>		    
+	<td><%= @batter.hr %></td>
+	<td><%= @batter.bb %></td>
+	<td><%= @batter.r %></td>
+	<td><%= @batter.rbi %></td>
+	<td><%= @batter.sb %></td>
+	<td><%= @batter.cs %></td>
+  </tr>
+<% $end %>
+</table>

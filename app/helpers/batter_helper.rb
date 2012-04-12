@@ -1,0 +1,2 @@
+module BatterHelper
+end
